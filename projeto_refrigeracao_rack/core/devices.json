@@ -1,0 +1,74 @@
+[
+  {
+    "id": "0",
+    "nome": "rb",
+    "comunicacao": {
+      "host": "10.0.0.1",
+      "port": 0,
+      "tipo": "mk"
+    },
+    "monitor": [
+      {
+        "nome": "temperatura",
+        "vmin": 0.0,
+        "vmax": 60.0,
+        "vexpected": [],
+        "auth": {
+          "required": false,
+          "usr": "",
+          "pwd": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "0",
+    "nome": "pc1",
+    "comunicacao": {
+      "host": "10.0.0.253",
+      "port": 5000,
+      "tipo": "worker"
+    },
+    "monitor": [
+      {
+        "nome": [
+          "temperatura"
+        ],
+        "vmin": [
+          0.0
+        ],
+        "vmax": 70.0,
+        "vexpected": [],
+        "auth": {
+          "usr": "",
+          "pwd": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "0",
+    "nome": "pc2",
+    "comunicacao": {
+      "host": "10.0.0.254",
+      "port": 5000,
+      "tipo": "worker"
+    },
+    "monitor": [
+      {
+        "nome": [
+          "temperatura"
+        ],
+        "vmin": [
+          0.0
+        ],
+        "vmax": 70.0,
+        "vexpected": [],
+        "auth": {
+          "usr": "",
+          "pwd": ""
+        }
+      }
+    ]
+  }
+]
